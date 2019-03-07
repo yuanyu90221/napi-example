@@ -1,0 +1,24 @@
+{
+  "name": "extension-example",
+  "version": "1.0.0",
+  "description": "node extension with nodejs v9.3",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node-extensiion",
+    "c++"
+  ],
+  "author": "json-Liang",
+  "license": "ISC",
+  "dependencies": {
+    "bindings": "^1.5.0",
+    "node-addon-api": "^1.6.2"
+  },
+  "engines": {
+    "node": "9.1.x",
+    "npm": "5.5.1"
+  },
+  "engine-strict": true
+}
